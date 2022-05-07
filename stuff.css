@@ -21,6 +21,8 @@ body {
 
 .grid {
   display: grid;
+  position:fixed; 
+  right:80px;
   width: 114em;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
